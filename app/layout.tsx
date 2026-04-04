@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from 'next'
 import { Bebas_Neue, Inter } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import './globals.css'
 
@@ -54,7 +53,6 @@ export default function RootLayout({
     <html lang="es">
       <body className={`${bebasNeue.variable} ${inter.variable} font-serif antialiased`}>
         {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
         {process.env.NODE_ENV === 'production' && <GoogleAnalytics gaId="G-1GZFC9WBXZ" />}
       </body>
     </html>
