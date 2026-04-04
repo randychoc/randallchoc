@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <!-- Background -->
+  <rect width="160" height="160" fill="#0D0D0D"/>
+
+  <!-- Orange top-left corner accent -->
+  <polygon points="0,0 50,0 0,50" fill="#E8440A"/>
+
+  <!-- Subtle grid texture lines -->
+  <line x1="0" y1="40" x2="160" y2="40" stroke="#E8440A" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="80" x2="160" y2="80" stroke="#E8440A" stroke-width="0.5" opacity="0.08"/>
+  <line x1="0" y1="120" x2="160" y2="120" stroke="#E8440A" stroke-width="0.5" opacity="0.08"/>
+  <line x1="40" y1="0" x2="40" y2="160" stroke="#E8440A" stroke-width="0.5" opacity="0.08"/>
+  <line x1="80" y1="0" x2="80" y2="160" stroke="#E8440A" stroke-width="0.5" opacity="0.08"/>
+  <line x1="120" y1="0" x2="120" y2="160" stroke="#E8440A" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Dumbbell centered -->
+  <!-- Bar -->
+  <rect x="38" y="77" width="84" height="8" rx="4" fill="#E8440A"/>
+  <!-- Left outer plate -->
+  <rect x="26" y="58" width="14" height="46" rx="3" fill="#E8440A"/>
+  <!-- Left inner plate -->
+  <rect x="40" y="65" width="9" height="32" rx="2" fill="#CC3D09"/>
+  <!-- Right inner plate -->
+  <rect x="111" y="65" width="9" height="32" rx="2" fill="#CC3D09"/>
+  <!-- Right outer plate -->
+  <rect x="120" y="58" width="14" height="46" rx="3" fill="#E8440A"/>
+
+  <!-- RC monogram below dumbbell -->
+  <text x="80" y="140" font-family="Arial Black, sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">RC</text>
+
+  <!-- Thin orange bottom line -->
+  <rect x="0" y="155" width="160" height="5" fill="#E8440A"/>
+</svg>
