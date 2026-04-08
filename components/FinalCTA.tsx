@@ -146,7 +146,7 @@ export function FinalCTA() {
                   className="w-full bg-primary hover:bg-primary/90 text-primary-foreground py-6 text-lg font-bold transition-all hover:scale-[1.02]"
                 >
                   <Send className="w-5 h-5 mr-2" />
-                  Enviar y Conectar por WhatsApp
+                  Enviar
                 </Button>
 
                 <p className="text-center text-sm text-muted-foreground">
